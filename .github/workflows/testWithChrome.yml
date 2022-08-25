@@ -13,5 +13,5 @@ jobs:
         timeout-minutes: 10
         with:
           build: npm run build
-          start: npm test:e2e:ci
+          start: npm run test:e2e:ci
           browser: chrome
